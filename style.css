@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: aquamarine;
+  background-color: #f3f3f3;
 }
 
 .main-game {
@@ -47,5 +47,5 @@ body {
 }
 
 .selected {
-  opacity: 0.8;
+  opacity: 0.4;
 }

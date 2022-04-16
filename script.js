@@ -17,7 +17,7 @@ const yellow = document.querySelector('.yellow');
 let shufflerOrder = () => {
   let colorOrder = Math.floor(Math.randon() * 4);
   order[order.length] = colorOrder;
-  clikedOrder = [];
+  clickedOrder = [];
 
   for (let i in order) {
     let elementColor = createColorElement(order[i])
@@ -96,11 +96,6 @@ let playGame = () => {
 
   nextLevel();
 }
-
-green.addEventListener('click', click(0));
-red.addEventListener('click', click(1));
-yellow.addEventListener('click', click(2));
-blue.addEventListener('click', click(3));
 
 //eventos de clique para as cores
 green.onclick = () => click(0);
