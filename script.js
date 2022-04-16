@@ -27,7 +27,7 @@ let shufflerOrder = () => {
 
 //acende a próxima cor
 let ligthColor = (element, number) => {
-    number = number *500;
+    number = number * 500;
     setTimeout(() => {
         element.classList.add('selected');
     }, tempo -250);
