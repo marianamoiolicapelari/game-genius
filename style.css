@@ -22,16 +22,16 @@ body {
   height: 700px;
 }
 
-.red {
-  grid-area: vermelho;
-  background-color: red;
-  border-top-right-radius: 100%;
-}
-
 .blue {
   grid-area: azul;
   background-color: blue;
   border-bottom-right-radius: 100%;
+}
+
+.red {
+  grid-area: vermelho;
+  background-color: red;
+  border-top-right-radius: 100%;
 }
 
 .yellow {
@@ -47,5 +47,5 @@ body {
 }
 
 .selected {
-  opacity: 0.4;
+  opacity: 0.6;
 }
