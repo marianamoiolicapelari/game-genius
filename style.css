@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #000000;
+  font-family: 'Lobster', cursive;
 }
 
 .main-game {
@@ -9,6 +10,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #ffffff;
+}
+
+.main-game h1 {
+  position: absolute;
+  z-index: 2;
+  transform: rotate(-20deg);
+  font-size: 60px;
+  text-shadow: 0 0 30px #ffffff;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.main-game p {
+  position: absolute;
+  background-color: #a7a5a5;
+  width: 290px;
+  height: 290px;
+  border-radius: 100%;
+  z-index: 1;
 }
 
 .genius {
@@ -18,10 +39,11 @@ body {
   border: 1px solid #000000;
   background-color: #000000;
   border-radius: 100%;
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+  box-shadow: 2px 5px 16px 0px #2b333b;
 }
-
 
 
 .blue {
@@ -56,4 +78,42 @@ body {
 
 .selected {
   opacity: 0.6;
+}
+
+
+@media screen and (max-width: 600px)  {
+  
+.genius {
+  
+  width: 320px;
+  height: 320px;
+  padding: 10px;
+}
+
+.main-game h1 {
+  font-size: 30px;
+}
+
+.main-game p {
+  width: 120px;
+  height: 120px;
+}
+
+.blue {
+    background-image: radial-gradient(circle at 0 0,transparent 60px, blue 20px);
+}
+
+.red {
+  background-image: radial-gradient(circle at 0 100%,transparent 60px, red 20px);
+}
+
+.yellow {
+  background-image: radial-gradient(circle at 100% 0,transparent 60px, yellow 20px);
+}
+
+.green {
+  background-image: radial-gradient(circle at 100% 100%,transparent 60px, green 20px);
+}
+
+
 }
