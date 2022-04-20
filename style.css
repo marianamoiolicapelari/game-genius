@@ -22,28 +22,36 @@ body {
   height: 700px;
 }
 
+
+
 .blue {
   grid-area: azul;
-  background-color: blue;
+  background-color: #000000;
   border-bottom-right-radius: 100%;
+  background-image: radial-gradient(circle at 0 0,transparent 150px, blue 20px);
+ 
 }
 
 .red {
   grid-area: vermelho;
-  background-color: red;
+  background-color: #000000;
   border-top-right-radius: 100%;
+  background-image: radial-gradient(circle at 0 100%,transparent 150px, red 20px);
 }
 
 .yellow {
   grid-area: amarelo;
-  background-color: yellow;
+  background-color: #000000;
   border-bottom-left-radius: 100%;
+  background-image: radial-gradient(circle at 100% 0,transparent 150px, yellow 20px);
 }
 
 .green {
   grid-area: verde;
-  background-color: green;
+  background-color: #000000;
   border-top-left-radius: 100%;
+  background-image: radial-gradient(circle at 100% 100%,transparent 150px, green 20px);
+  
 }
 
 .selected {
