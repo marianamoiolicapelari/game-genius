@@ -5,7 +5,7 @@ Jogo da memória inspirado no clássico Jogo Gênius, desenvolvido para desktop 
 
 ## 🎨 Layout
 
-![image](https://github.com/marianamoiolicapelari/site-barbearia/blob/main/imagens/img%20site%20pronto.jpg)
+![image](https://raw.githubusercontent.com/marianamoiolicapelari/game-genius/main/g%C3%AAnius.png)
 
 ## 🛠 Tecnologias
 
@@ -18,7 +18,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Esse projeto foi elaborado para web e mobile. Para acessar basta clicar no link abaixo:
 
-https://barbeariabarbershop.netlify.app
+https://gamegeniusclassico.netlify.app/
 
 ## 📝 Licença
 
